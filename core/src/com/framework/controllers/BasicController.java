@@ -24,6 +24,7 @@ public class BasicController implements Controller {
 
     }
 
+
     @Override
     public void askControllableToPerform() {
         controllable.performAction();
@@ -33,7 +34,7 @@ public class BasicController implements Controller {
     public void addEvent(Event e) {
         triggeringEvents.add(e);
     }
-    
+
     public ArrayList<Event> getTriggeringEvents() {
         return triggeringEvents;
     }
